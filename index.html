@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-dars yakuniy ish</title>
+    <style>
+        body{
+            background-color: #E5E5E5;
+        }
+         table{
+            background-color: white;
+         }
+         .div{
+            font-size: 12px;
+            margin-left: 36px;
+            font-weight: 500;
+            margin: 0 0 0 35px;
+         }
+         p{
+            color: #FF9846;
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0 0 0 25px;
+         }
+         .vektor{
+            margin: 0 0 0 40px;
+         }
+         .mother{
+            margin: 0 0 0 0;
+            color: #A4ACAD;
+            font-size: 12px;
+            margin: 0 0 0 25px;
+         }
+         .father{
+            font-size: 12px;
+            font-weight: 500;
+            color: #A4ACAD;
+            margin: 0 0 0 10px;
+         }
+         .brother{
+            margin-left: 27px;
+         }
+         .sister{
+            background-color:  #E5E5E5;
+         }
+         .granded{
+            /* top: 20px; */
+            position: relative;
+            /* right: 10px; */
+         }
+         .granny{
+            position: absolute;
+            color: white;
+            font-size: 18px;
+            top: 1px;
+            left: 11px;
+         }
+         .bigfather{
+            width: 382px;
+         }
+         .bigbrother{
+            margin-left: 28px;
+         }
+         .biggranny{
+            position: relative;
+            left: 10px;
+            top: 20px;
+         }
+         .sister input{
+            position: absolute;
+            background-color: #EB5757;
+            color: white;
+            border-color: #EB5757;
+            border-radius: 10px;
+            border: none;
+            top: 14px;
+            right: 19px;
+         }
+         .bigmother{
+            top: 20px;
+            position: relative;
+            right: 10px;
+         }
+         .bigsister{
+            /* position: absolute; */
+            color: white;
+            font-size: 24px;
+            top: 80px;
+            left: 11px;
+         }
+         .box{
+            background-color: #E5E5E5;
+         }
+         .bigweb{
+            background-color: #E5E5E5;
+            width: 372px;
+         }
+         .bigded{
+            color: #A4ACAD;
+            font-size: 24px;
+         }
+         .Sohiba{
+            color: black;
+            font-size: 24px;
+            font-weight: 500;
+         }
+         .Ezoza{
+            background-color: #E5E5E5;
+         }
+         .Mohira{
+            margin-left: 130px;
+         }
+         .Shovkat{
+            text-align: center;
+            color: #A4ACAD;
+         }
+         .Shovkatjon{
+            text-align: center;
+            color: #A4ACAD;
+         }
+         .Davron{
+            color: #A4ACAD;
+            font-size: 16px;
+            
+         }
+         .parda {
+            width: 100%;
+            height: 100px;
+            background-image: linear-gradient(to bottom, #E5E5E500, #E5E5E5);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+         }
+         .rasm1{
+            margin-left: 90px;
+         }
+         .rasm2{
+            text-align: center;
+            margin-left: 20px;
+         }
+         .rasm3{
+            margin-left: 20px;
+            margin-top: 0;
+         }
+         .Teshmat{
+            text-align: center;
+            color: #A4ACAD;
+         }
+         .Toshmat{
+            width: 382px;
+         }
+         .rasm10{
+            margin-left: 80px;
+         }
+         .rasm20{
+            margin-left: 30px;
+         }
+         .rasm30{
+            margin-left: 30px;
+         }
+         .big{
+            margin-top: 30px;
+            width: 382px;
+         }
+         .Rasulbek1{
+            color: black;
+            text-align: center;
+         }
+         .text{
+            background-color: white;
+         }
+         .Ramziddin{
+            background-color: #A4ACAD;
+            width: 382px;
+         }
+         .Firdavs{
+            background-color: white;
+            border-color: white;
+            border: none;
+            border-radius: 5px;
+            width: 160px;
+            height: 40px;
+            margin-left: 20px;
+         }
+         .Abdurahmon{
+            background-color: white;
+            border-color: white;
+            border: none;
+            border-radius: 5px;
+            width: 160px;
+            height: 40px;
+            margin-left: 6px;
+         }
+         .Oybek{
+            background-color: #FF9846;
+            border: none;
+            border-radius: 5px;
+            width: 165px;
+            height: 40px;
+            margin-left: 20px;
+         }
+         .Oybek2{
+            background-color: white;
+            border: none;
+            width: 165px;
+            height: 40px;
+            border-radius: 5px;
+            margin-right: 20px;
+         }
+         .dada{
+            width: 340px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+         }
+         .mama{
+            width: 340px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+         }
+         .fafa{
+            border-radius: 5px;
+            border: none;
+            height: 40px;
+            width: 160px;
+            margin-left: 20px;
+         }
+         .lala{
+            border-radius: 5px;
+            border: none;
+            height: 40px;
+            width: 160px;
+            margin-left: 5px;
+         }
+         .jaja{
+            background-color: #FF9846;
+            border: none;
+            border-radius: 5px;
+            width: 165px;
+            height: 40px;
+            margin-left: 20px;
+         }
+         .gaga{
+            background-color: white;
+            border: none;
+            width: 165px;
+            height: 40px;
+            border-radius: 5px;
+            margin-right: 20px;
+         }
+         .vava{
+            color: black;
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            margin-left: 0;
+            margin-top: 0;
+         }
+         .baba{
+            margin-top: 0;
+         }
+         .sasa{
+            height: 40px;
+            width: 122px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 40px;
+         }
+         .caca{
+            font-size: 18px;
+            color: black;
+         }
+         .rara{
+            width: 340px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+         }
+         .wawa{
+            font-size: 24px;
+            color: #FF9846;
+         }
+         .qaqa{
+            background-color: #F46D40;
+            width: 340px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 20px;
+            color: white;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <table align="center" class="bigfather">
+            <tr>
+                <td>
+                    <img src="logo (1).png" alt="" class="bigbrother">
+                </td>
+                <td>
+                    <h3 class="div">Наш телефон</h3>
+                    <p>+996 705 188 955</p>
+                    <p>+996 555 188 955</p>
+                </td>
+                <td>
+                    <img src="Часы (1).png" alt="" class="vektor">
+                    <h3 class="mother">работаем</h3>
+                    <p class="father">с 10:00 до 00:00</p>
+                </td>
+                <td>
+                    <img src="Vector (2).png" alt="" class="brother">
+                </td>
+            </tr>
+        </table>
+        <table align="center" class="sister" border="0">
+            <tr>
+                <td class="granded">
+                    <h3 class="granny">Пицца</h3>
+                    <img src="Rectangle 17 (1).png" alt="">
+                </td>
+                <td class="granded">
+                    <h3 class="granny">Сеты</h3>
+                    <img src="Rectangle 17.png" alt="" >
+                </td>   
+            </tr>
+            <tr>
+                <td class="granded">
+                    <h3 class="granny">WOK</h3>
+                    <img src="Rectangle 17 (2).png" alt="">
+                </td>
+                <td class="granded">
+                    <h3 class="granny">Роллы</h3>
+                    <img src="Rectangle 17 (3).png" alt="" >
+                </td>   
+            </tr>
+            <tr>
+                <td class="granded">
+                    <h3 class="granny">Суши</h3>
+                    <img src="Rectangle 17 (4).png" alt="">
+                </td>
+                <td class="granded">
+                    <input class="text" type="submit" value="скоро">
+                    <h3 class="granny">Супы</h3>
+                    <img src="Rectangle 17 (5).png" alt="" >
+                </td>   
+            </tr>
+            <tr>
+                <td class="granded">
+                    <input class="text" type="submit" value="скоро">
+                    <h3 class="granny">Салаты</h3>
+                    <img src="Rectangle 17 (6).png" alt="">
+                </td>
+                <td class="granded">
+                    <h3 class="granny">Напитки</h3>
+                    <img src="Rectangle 17 (7).png" alt="" >
+                </td>   
+            </tr>
+            <tr>
+                <td class="granded">
+                    <h3 class="granny">С угрем</h3>
+                    <img src="С угрем.png" alt="">
+                </td>
+                <td class="granded">
+                    <h3 class="granny"></h3>
+                    <img src="Без мяса.png" alt="" >
+                </td>   
+            </tr>
+        </table>
+        
+        <table align="center" class="bigweb" border="0">
+            <tr>
+                <td>
+                    <h3 class="bigded">Заказать суши в Бишкеке</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="position: relative;">
+                    <p class="Davron">Ресторан “Суши и Лапша” предлагаем своим 
+                        клиентам самые вкусные суши с доставкой на дом,
+                         приготовленные по классическим и адаптированным к 
+                         европейской аудитории рецептам, а также собственным
+                          наработкам наших поваров. Мы ценим время наших клиентов, 
+                          поэтому вы можете заказать суши в Харькове 
+                          с доставкой на дом или в офис.
+                          
+                    </p>
+                    <div class="parda"></div>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Group 10.png" alt="" class="Mohira">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Shovkat">Выберите удобный</p>
+                    <p class="Shovkatjon">мессенджер для общения</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="whatsapp.png" alt="" class="rasm1">
+                    <img src="Group (2).png" alt="" class="rasm2">
+                    <img src="instagram 3.png" alt="" class="rasm3">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="Teshmat">Тел:+996 705 188 955 </p>
+                    <p class="Teshmat">Тел:+996 555 188 955 </p>
+                    <p class="Teshmat"> Адрес:Бакаева 126</p>
+                </td>
+            </tr>
+        </table>
+        <table align="center" class="Toshmat">
+            <tr>
+                <td>
+                    <img src="Group 20.png" alt="" class="rasm10">
+                    <img src="Group 21.png" alt="" class="rasm20">
+                    <img src="Group 28.png" alt="" class="rasm30">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="Abdulaziz">
+        <table align="center" class="big">
+            <tr>
+                <td>
+                    <img src="logo (1).png" alt="" class="bigbrother">
+                </td>
+                <td>
+                    <h3 class="div">Наш телефон</h3>
+                    <p>+996 705 188 955</p>
+                    <p>+996 555 188 955</p>
+                </td>
+                <td>
+                    <img src="Часы (1).png" alt="" class="vektor">
+                    <h3 class="mother">работаем</h3>
+                    <p class="father">с 10:00 до 00:00</p>
+                </td>
+                <td>
+                    <img src="Vector (2).png" alt="" class="brother">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table align="center" class="Rasulbek1">
+            <tr>
+                <td colspan="2">
+                   <h3 class="small2">Ваши данные</h3>
+                </td>
+            </tr>
+        </table>
+        <table align="center" class="Ramziddin" border="0">
+            <tr>
+                <td>
+                    <input  type="text" placeholder="фамилия" class="Firdavs">
+                </td>
+                <td>
+                    <input  type="text" placeholder="Имя" class="Abdurahmon">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="text" placeholder="Курьером" class="Oybek">
+                </td>
+                <td>
+                    <input type="text" placeholder="Самовывоз" class="Oybek2">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" placeholder="Улица" class="dada">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" class="mama" placeholder="Дом">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Кв" class="fafa">
+                </td>
+                <td>
+                    <input type="text" placeholder="Подъезд" class="lala">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Этаж" class="fafa">
+                </td>
+                <td>
+                    <input type="text" placeholder="Код" class="lala">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Наличными" class="jaja">
+                </td>
+                <td>
+                    <input type="text" placeholder="Картой" class="gaga">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Group 13.png" alt="" class="baba">
+                    <p class="vava">Подготовить сдачу с</p>
+                </td>
+                <td>
+                    <input type="text" placeholder="Сумма" class="sasa">
+                </td>
+            </tr>
+            <tr>
+                <td
+                colspan="2">
+                     <p class="caca">Палочки + соусник обычные</p><img src="Group 18.png" alt="">
+                </td>
+                <tr>
+                    <td colspan="2">
+                     <p class="caca">Палочки + соусник обычные</p><img src="Group 18.png" alt=""
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" placeholder="Палочки + соусник обычныеВведите промокод" class="rara">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="caca">1 товар</p>
+                </td>
+                <td>
+                    <p class="caca">170 СОМ</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="caca">Скидка</p>
+                </td>
+                <td>
+                    <p class="caca">0 СОМ</p>
+                </td>
+                <tr>
+                    <td>
+                        <p class="caca">Доставка</p>
+                    </td>
+                    <td>
+                        <p class="caca">Бесплатно</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="wawa">Итого</p>
+                    </td>
+                    <td>
+                        <p class="wawa">170 СОМ</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Оформить заказ" class="qaqa">
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
